@@ -1,0 +1,34 @@
+
+==================================================
+--- CÓDIGO DE CALIBRAÇÃO PARA COPIAR E COLAR ---
+(Pode ser copiado diretamente para o script de Air Hockey)
+==================================================
+# --- PONTOS DE CALIBRAÇÃO DE HOMOGRAFIA ---
+# Os pontos que a CÂMERA viu (em pixels brutos)
+p_camera = np.array([
+    [440, 250],
+    [488, 562],
+    [484, 920],
+    [750, 912],
+    [788, 552],
+    [788, 156],
+    [1177, 179],
+    [1180, 574],
+    [1185, 926]
+], dtype=np.float32)
+
+# Os pontos REAIS do ROBÔ (em milímetros)
+p_robot = np.array([
+    [365, 130],  # Ponto 1
+    [386, -1],  # Ponto 2
+    [386, -149],  # Ponto 3
+    [495, -147],  # Ponto 4
+    [510, 2],  # Ponto 5
+    [510, 169],  # Ponto 6
+    [677, 160],  # Ponto 7
+    [677, -6],  # Ponto 8
+    [677, -152]  # Ponto 9
+], dtype=np.float32)
+==================================================
+--- FIM DO CÓDIGO ---
+==================================================
